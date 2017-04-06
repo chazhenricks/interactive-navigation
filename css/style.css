@@ -1,0 +1,32 @@
+nav li{
+	float: left;
+	margin-right: 2.5em;
+	list-style-type: none;
+	padding: .5em 2em;
+}
+
+nav li:hover{
+	background-color: lightgrey;
+}
+
+nav li:active{
+	padding: .5em 4em;
+}
+nav a{
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: red;
+}
+nav ul {
+	float: right; 
+
+}
+
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: table;
+}
